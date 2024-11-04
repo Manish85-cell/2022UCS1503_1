@@ -1,9 +1,60 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.3">
   <diagram name="Page-1" id="b2Et15CXXFEsw-DHHqhC">
-    <mxGraphModel>
+    <mxGraphModel dx="2013" dy="1159" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="xKelDGOueqnxKLDwFDqJ-9" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="xKelDGOueqnxKLDwFDqJ-2" target="xKelDGOueqnxKLDwFDqJ-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xKelDGOueqnxKLDwFDqJ-2" value="Bert for&lt;div&gt;Drug Classification&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="349" y="241" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xKelDGOueqnxKLDwFDqJ-8" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="xKelDGOueqnxKLDwFDqJ-3" target="xKelDGOueqnxKLDwFDqJ-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xKelDGOueqnxKLDwFDqJ-3" value="BERT for&amp;nbsp;&amp;nbsp;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Protein&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Classification&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-187.38" y="236" width="150.75" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xKelDGOueqnxKLDwFDqJ-11" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="xKelDGOueqnxKLDwFDqJ-5" target="xKelDGOueqnxKLDwFDqJ-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xKelDGOueqnxKLDwFDqJ-5" value="Attention Mechanism" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-152.01" y="78" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xKelDGOueqnxKLDwFDqJ-10" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="xKelDGOueqnxKLDwFDqJ-6" target="xKelDGOueqnxKLDwFDqJ-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xKelDGOueqnxKLDwFDqJ-6" value="Attention Mechanism" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="369" y="82" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xKelDGOueqnxKLDwFDqJ-13" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="xKelDGOueqnxKLDwFDqJ-7" target="xKelDGOueqnxKLDwFDqJ-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xKelDGOueqnxKLDwFDqJ-7" value="CNN" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="-107" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xKelDGOueqnxKLDwFDqJ-12" value="Output Model for&lt;div&gt;Drug-Target Interaction Prediction&lt;/div&gt;&lt;div&gt;(True or False)&amp;nbsp;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-13" y="-297" width="285" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xKelDGOueqnxKLDwFDqJ-14" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="xKelDGOueqnxKLDwFDqJ-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-112" y="386" as="sourcePoint" />
+            <mxPoint x="-116" y="306" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xKelDGOueqnxKLDwFDqJ-15" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="xKelDGOueqnxKLDwFDqJ-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="409" y="377" as="sourcePoint" />
+            <mxPoint x="181" y="155" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xKelDGOueqnxKLDwFDqJ-16" value="Protein Structure Dataset" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-207.5" y="385.5" width="198" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="xKelDGOueqnxKLDwFDqJ-17" value="Drug Dataset" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="349" y="380" width="112" height="31" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
